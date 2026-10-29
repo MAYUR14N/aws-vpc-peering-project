@@ -1,0 +1,31 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+*.tfplan
+tfplan*
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+# Real variable files (only the .example is public)
+*.tfvars
+*.tfvars.json
+!terraform.tfvars.example
+# Keys, credentials, secrets
+*.pem
+*.ppk
+*.key
+id_rsa*
+id_ed25519*
+ewb-lab
+.aws/
+credentials
+.env
+.env.*
+# Logs / archives / misc
+*.log
+*.pcap
+*.zip
